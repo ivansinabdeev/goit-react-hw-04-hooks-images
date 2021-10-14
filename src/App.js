@@ -57,6 +57,11 @@ export default function App() {
     loaderToggle(true);
     getImages(searchWords, currentPage);
   };
+
+  // const onLoadMoreBtnClick = () => {
+  //   setStatus(Status.PENDING);
+  //   setpage((prevpage) => prevpage + 1);
+  // };
   return (
     <div className="App">
       {showModal && (
