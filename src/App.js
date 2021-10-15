@@ -49,8 +49,8 @@ export default function App() {
     setImages([]);
     const searchWordsValue = event.target[1].value;
     setSearchWords(searchWordsValue);
-    const page = 1;
-    getImages(searchWordsValue, page);
+    let currentPage = 1;
+    getImages(searchWordsValue, currentPage);
     event.target.reset();
   };
   const loadMoreFn = () => {
