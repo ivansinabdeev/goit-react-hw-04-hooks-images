@@ -58,10 +58,6 @@ export default function App() {
     getImages(searchWords, currentPage);
   };
 
-  // const onLoadMoreBtnClick = () => {
-  //   setStatus(Status.PENDING);
-  //   setpage((prevpage) => prevpage + 1);
-  // };
   return (
     <div className="App">
       {showModal && (
